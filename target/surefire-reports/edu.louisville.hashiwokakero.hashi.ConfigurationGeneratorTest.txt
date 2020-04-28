@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: edu.louisville.hashiwokakero.hashi.ConfigurationGeneratorTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! - in edu.louisville.hashiwokakero.hashi.ConfigurationGeneratorTest
+generatesConfigurations  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.NullPointerException
+	at edu.louisville.hashiwokakero.hashi.ConfigurationGeneratorTest.generatesConfigurations(ConfigurationGeneratorTest.java:27)
+
