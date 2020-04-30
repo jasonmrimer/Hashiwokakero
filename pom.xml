@@ -13,7 +13,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>hashiwokakero</name>
   <packaging>jar</packaging>
-  <description>Brute force solution for traveling salesperson problem</description>
+  <description>Using genetic algorithms and wisdom of the crowd to determine if randomly generated Hashiwokakero maps are solvable.</description>
 
   <properties>
     <java.version>12</java.version>
