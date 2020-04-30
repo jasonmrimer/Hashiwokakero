@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: edu.louisville.traveler.maps.MapControllerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.809 s <<< FAILURE! - in edu.louisville.traveler.maps.MapControllerTest
+postReturnsRouteAndWeight  Time elapsed: 0.463 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at edu.louisville.traveler.maps.MapControllerTest.postReturnsRouteAndWeight(MapControllerTest.java:45)
+
+postReturnsRouteAndWeightFromInsertionTour  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at edu.louisville.traveler.maps.MapControllerTest.postReturnsRouteAndWeightFromInsertionTour(MapControllerTest.java:72)
+

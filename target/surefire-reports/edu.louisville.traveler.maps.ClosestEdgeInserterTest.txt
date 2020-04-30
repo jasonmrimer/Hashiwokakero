@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: edu.louisville.traveler.maps.ClosestEdgeInserterTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in edu.louisville.traveler.maps.ClosestEdgeInserterTest
+findsPathOf30Cities  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <[1, 24, 30, 15, 7, 17, 23, 19, 3, 21, 28, 16, 11, 12, 18, 10, 8, 4, 29, 13, 25, 6, 20, 2, 14, 26, 5, 9, 27, 22, 1]> but was: <[1, 15, 30, 10, 8, 20, 6, 25, 13, 29, 4, 18, 26, 5, 9, 27, 22, 14, 2, 12, 11, 16, 17, 23, 28, 19, 3, 21, 7, 24, 1]>
+	at edu.louisville.traveler.maps.ClosestEdgeInserterTest.findsPathOf30Cities(ClosestEdgeInserterTest.java:105)
+
+findsShortestPath  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <[1, 3, 4, 10, 9, 5, 8, 6, 7, 2, 1]> but was: <[1, 4, 10, 9, 5, 8, 6, 7, 3, 2, 1]>
+	at edu.louisville.traveler.maps.ClosestEdgeInserterTest.findsShortestPath(ClosestEdgeInserterTest.java:54)
+
+findShortestPathFor40Cities  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <[1, 24, 30, 15, 7, 17, 40, 10, 16, 11, 12, 18, 8, 35, 4, 33, 29, 38, 31, 13, 25, 6, 20, 37, 39, 26, 14, 2, 23, 34, 36, 19, 28, 32, 5, 22, 9, 27, 3, 21, 1]> but was: <[1, 15, 30, 40, 10, 39, 8, 38, 29, 20, 6, 25, 13, 31, 33, 4, 35, 26, 5, 9, 27, 22, 14, 2, 18, 12, 11, 16, 37, 36, 34, 28, 32, 19, 3, 21, 23, 17, 7, 24, 1]>
+	at edu.louisville.traveler.maps.ClosestEdgeInserterTest.findShortestPathFor40Cities(ClosestEdgeInserterTest.java:166)
+
